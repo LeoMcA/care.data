@@ -5,7 +5,8 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.1.*",
-  "coderockr/php-query": "dev-master"
+        "querypath/querypath": "dev-master",
+        "rmccue/requests": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
