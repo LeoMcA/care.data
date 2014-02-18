@@ -91,7 +91,7 @@
         mpData = {};
 
         $('#find-mp').click(function(){
-          $.get('/api/email/' + $('#postcode').val() +'?_token={{ Session::token() }}', function(data){
+          $.get('api/email/' + $('#postcode').val() +'?_token={{ Session::token() }}', function(data){
             mpData = data;
             $('#message').text('Dear '+data.addressAs+',\n\n\n\nYours sincerely,');
           });
