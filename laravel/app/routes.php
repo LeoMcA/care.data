@@ -13,4 +13,6 @@
 
 Route::get('/', "HomeController@showWelcome");
 
+Route::get('/api', "ApiTestController@showTest");
+
 Route::get('/api/email/{postcode}', "ApiController@getMpEmail");
